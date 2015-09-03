@@ -4,12 +4,13 @@ function destroyer(arr) {
   for (var i=1;i<arguments.length;i++){
     toRemove.push(arguments[i]);
   }
-  return arr.filter(function(item){
-    if(toRemove.indexOf(item)>=0){
-      return false;
+  return arr.filter(
+    function(item){
+      if(toRemove.indexOf(item)>=0){
+        return false;
     }
-    else{
-      return true;
+      else{
+        return true;
     }
   })
   return arr;
