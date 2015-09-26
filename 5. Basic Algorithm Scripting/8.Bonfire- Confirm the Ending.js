@@ -13,4 +13,5 @@ function end(str, target) {
 
 end('Bastian', 'n');
 
+
 //The substr() method returns the characters in a string beginning at the specified location through the specified number of characters.
